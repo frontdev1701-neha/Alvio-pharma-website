@@ -1,0 +1,39 @@
+.company-counter-item .counter-number {
+ font-size: clamp(1.75rem, 3vw + 1rem, 3.375rem);
+}
+
+/* svg animation */
+.visio-mission-svg{
+  background: linear-gradient(135deg, #0a1f44 0%, #001845 100%);
+  padding: 60px;
+  border-radius: 24px;
+}
+
+.visio-mission-animation {
+  width: 100%;
+}
+
+.visio-mission-animation > g > path[stroke="#88B8E4"] {
+  stroke-dasharray: 1200;
+  stroke-dashoffset: 1200;
+  animation: 
+    stroke-draw 4.2s cubic-bezier(0.65, 0, 0.35, 1) forwards,
+    stroke-glow 3s ease-in-out infinite alternate 4.5s;
+}
+
+@keyframes stroke-draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes stroke-glow {
+  from {
+    stroke: #88b8e4;
+    filter: drop-shadow(0 0 4px #88b8e480);
+  }
+  to {
+    stroke: #a8d0ff;
+    filter: drop-shadow(0 0 18px #a8d0ffff);
+  }
+}

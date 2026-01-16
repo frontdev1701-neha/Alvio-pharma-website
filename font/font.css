@@ -1,0 +1,122 @@
+
+/* Font faces for Be Vietnam family (external only). */
+
+/* Light Weight (300) */
+@font-face {
+    font-family: 'Be Vietnam Light';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: local('Be Vietnam Light'), url('BeVietnam-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Be Vietnam Light';
+    font-style: italic;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Be Vietnam Light Italic'), url('BeVietnam-LightItalic.woff') format('woff');
+}
+
+/* Normal/Regular Weight (400) */
+@font-face {
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Be Vietnam'), url('BeVietnam-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Be Vietnam';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Be Vietnam Italic'), url('BeVietnam-Italic.woff') format('woff');
+}
+
+/* Medium Weight (500) */
+@font-face {
+    font-family: 'Be Vietnam Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Be Vietnam Medium'), url('BeVietnam-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Be Vietnam Medium';
+    font-style: italic;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Be Vietnam Medium Italic'), url('BeVietnam-MediumItalic.woff') format('woff');
+}
+
+/* SemiBold Weight (600) */
+@font-face {
+    font-family: 'Be Vietnam SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: local('Be Vietnam SemiBold'), url('BeVietnam-SemiBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Be Vietnam SemiBold';
+    font-style: italic;
+    font-weight: 600;
+    font-display: swap;
+    src: local('Be Vietnam SemiBold Italic'), url('BeVietnam-SemiBoldItalic.woff') format('woff');
+}
+
+/* Bold Weight (700) */
+@font-face {
+    font-family: 'Be Vietnam Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Be Vietnam Bold'), url('BeVietnam-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Be Vietnam Bold';
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Be Vietnam Bold Italic'), url('BeVietnam-BoldItalic.woff') format('woff');
+}
+
+/* ExtraBold Weight (800) */
+@font-face {
+    font-family: 'Be Vietnam ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: local('Be Vietnam ExtraBold'), url('BeVietnam-ExtraBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Be Vietnam ExtraBold';
+    font-style: italic;
+    font-weight: 800;
+    font-display: swap;
+    src: local('Be Vietnam ExtraBold Italic'), url('BeVietnam-ExtraBoldItalic.woff') format('woff');
+}
+
+/* Thin Weight (100) */
+@font-face {
+    font-family: 'Be Vietnam Thin';
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: local('Be Vietnam Thin'), url('BeVietnam-Thin.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Be Vietnam Thin';
+    font-style: italic;
+    font-weight: 100;
+    font-display: swap;
+    src: local('Be Vietnam Thin Italic'), url('BeVietnam-ThinItalic.woff') format('woff');
+}
+

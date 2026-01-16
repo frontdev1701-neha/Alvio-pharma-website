@@ -1,0 +1,133 @@
+.common-footer-text {
+    color:var(--text-white);
+    font-size: 70px;
+    font-family: var(--title-font);
+}
+.tab-wrapper {
+  text-align: center;
+}
+
+/* NAV */
+.tab-nav {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  column-gap: 40px;
+}
+
+.tab-item {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+
+.tab-item.active {
+  opacity: 1;
+  font-weight: 600;
+  transform: scale(1.1);
+}
+
+/* CONTENT */
+.tab-content {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.content-item {
+  display: none;
+}
+
+.content-item.active {
+  display: block;
+}
+.tab-list{
+  display: inline-flex;
+}
+
+footer{
+  background-color: var(--black-color);
+}
+
+.footer-item{
+  background-color: var(--black-color);
+  padding:39px 80px;
+  border-left:1px solid #DDDDDD
+}
+.footer-wrapper{
+  display:grid;
+  grid-template-columns: 35% 20% 25% 20%;
+  gap:1px;
+}
+.subcription-form .form-control{
+background-color:transparent;
+border: none;
+border-bottom:1px solid var(--white-color) ;
+border-radius: 0;
+color: var(--white-color)
+}
+.subcription-form  .form-floating>label{
+ color: var(--white-color);
+ padding:0 .75rem;
+}
+.subcription-form .form-floating>.form-control:focus~label{
+   color: var(--white-color)
+}
+.subcription-form .form-floating>.form-control:focus~label::after{
+  background-color: transparent;
+}
+.subcription-form .form-control:focus{
+  box-shadow: none;
+}
+.subcription-form form{
+  position: relative;
+}
+.subcription-form button{
+  position: absolute;
+  top: -1px;
+  right: 0;
+  color:var(--white-color);
+  font-family: 22px;
+}
+.subcription-form button .fa-solid{
+  font-size: 22px;
+}
+.subcription-form .form-check-label{
+  color:var(--white-color);
+}
+.footer-title{
+  color:var(--white-color);
+  font-size: 28px;
+  margin-bottom: 24px;
+}
+.footer-list{
+  list-style: none;
+  padding-left: 0;
+}
+.footer-list li{
+  color:var(--white-color);
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+.footer-wrapper .footer-item:first-child{
+  padding-right:80px;
+  padding-left: 0;
+   border-left:0
+}
+.footer-wrapper .footer-item:last-child{
+    padding-right:0px;
+  padding-left: 80px;
+}
+.bottom-footer{
+  display:flex;
+  background-color: var(--black-color);
+  margin-top: 1px;
+  padding: 22px 0;
+  border-top: 1px solid #DDDDDD;
+}
+.bottom-footer-wrapper{
+  display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}

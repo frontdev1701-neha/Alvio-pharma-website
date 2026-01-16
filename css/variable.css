@@ -1,0 +1,35 @@
+/* Theme color variables (root) */
+:root {
+	--blue-heading: #307ABD;
+	--white-color: #FFFFFF;
+	--para-text: #666666;
+	--black-color: #373435;
+	--bg-blue: #E4F2FF;
+	--para-text-alt: #6698C5;
+	--slider-blue: #88B8E4;
+    --title-font: 'be vietnam semibold', sans-serif;
+    --title-font-medium: 'be vietnam medium', sans-serif;
+    --title-font-light: 'be vietnam light', sans-serif;
+    --para-font: 'Geist', sans-serif;
+	--font-size-base: 1.125rem;
+	--font-size-text-white: 16px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+	font-family: var(--para-font);
+	font-size: var(--font-size-base);
+	line-height: 28px;
+	color: var(--para-text);
+}
+a {
+	text-decoration: none;
+	color:inherit;
+	cursor: pointer;
+}
+p{
+	margin-bottom: 0;
+}

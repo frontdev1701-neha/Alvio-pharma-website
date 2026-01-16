@@ -1,0 +1,91 @@
+
+.title-68
+{
+    font-family: var(--title-font);
+    font-size: clamp(2rem, 4.5vw, 3.875rem);
+    font-weight: 600;
+    color: var(--white-color);
+    line-height: 76px;
+}
+.title-54{
+    font-family: var(--title-font-light);
+    font-size: clamp(2.1rem, 4vw, 3.27rem);
+    line-height: 1.2;
+    font-weight: 600;
+    color: var(--title-color, var(--blue-heading));
+}
+.title-34{
+    font-family: var(--title-font-light);
+    line-height: 1.2;
+    font-weight: 600;
+    color: var(--title-color, var(--blue-heading));
+}
+.title-80{
+    font-family: var(--title-font-light);
+    font-size: clamp(2.8rem, 6.5vw, 5rem);
+    line-height: 1.05;
+    color: var(--white-color);
+}
+.common-para{
+    color: var(--color, var(--black-color));
+}
+.title-24{
+    font-family: var(--para-font);
+    font-size: clamp(1.1rem, 2.8vw, 1.5rem);
+    font-weight: 400;
+    color: var(--title-color, var(--black-color));
+    line-height: 32px;
+}
+.title--blue { --title-color: var(--blue-heading); }
+.title--light-blue { --title-color: var(--para-text-alt); }
+.title--dark { --title-color: var(--black-color); }
+.text--white { color: var(--white-color); }
+.text--para { color: var(--para-text); }
+.text--para-alt { color: var(--para-text-alt); }
+.blue-text { color: var(--blue-heading); }
+
+.page-header-para{
+    font-size: var(--font-size-text-white);
+    color: var(--title-color, var(--white-color));
+    line-height: 24px;
+    text-align: center;
+}
+
+.p-x{
+    padding: 0 60px;
+}
+
+.mb-54{
+    margin-bottom: clamp(1.5rem, 5vw, 3.375rem);
+}
+.mt-100{
+   margin-top: clamp(2rem, 6vw, 6.25rem);
+}
+.mt-40{
+    margin-top: clamp(1rem, 4vw, 2.5rem);
+}
+
+.page-header img{
+    position: relative;
+    width: 100%;
+}
+.page-header-text{
+    background-color: var(--blue-heading);
+    text-align: center;
+    padding: 21px 0;
+    width: 80%;
+    border-radius: 10px;
+}
+.page-header-content{
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 30px;
+    margin-top: -4em;
+    position: relative;
+    z-index: 99;
+}
+.page-header-para{
+    width:70%;
+    margin:0 auto;
+    font-size: 16px;
+}
