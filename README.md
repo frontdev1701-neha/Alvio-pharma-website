@@ -40,3 +40,66 @@
       <script src="script.js"></script>
   </body>
 </html>
+
+/* Common ring behavior */
+.ring {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  will-change: transform, opacity;
+}
+
+/* Direction */
+.ring-cw {
+  animation-name: rotateScaleOpacityCW;
+}
+
+.ring-ccw {
+  animation-name: rotateScaleOpacityCCW;
+}
+
+/* Speed */
+.slow {
+  animation-duration: 14s;
+}
+
+.medium {
+  animation-duration: 10s;
+}
+
+.fast {
+  animation-duration: 6s;
+}
+
+/* Clockwise + scale + opacity */
+@keyframes rotateScaleOpacityCW {
+  0% {
+    transform: rotate(0deg) scale(0.8);
+    opacity: 0.5;
+  }
+  50% {
+    transform: rotate(180deg) scale(0.9);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(360deg) scale(0.8);
+    opacity: 0.5;
+  }
+}
+
+/* Anti-clockwise + scale + opacity */
+@keyframes rotateScaleOpacityCCW {
+  0% {
+    transform: rotate(360deg) scale(0.8);
+    opacity: 0.5;
+  }
+  50% {
+    transform: rotate(180deg) scale(0.9);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(0deg) scale(0.8);
+    opacity: 0.5;
+  }
+}
