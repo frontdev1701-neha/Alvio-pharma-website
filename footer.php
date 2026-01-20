@@ -1,4 +1,4 @@
-<footer class="mt-100">
+<footer>
 	<div class="footer-wrapper p-x">
 		<div class="footer-item">
 			<a href="javascript:void(0)"><img src="images/logo.svg" alt="alvio-logo" class="img-fluid"></a>

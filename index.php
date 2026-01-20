@@ -163,7 +163,7 @@
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                               <p>Alvio Pharma’s national operations are the foundation of our growth story.</p>
+                                <p>Alvio Pharma’s national operations are the foundation of our growth story.</p>
                             </div>
                         </div>
                     </div>
@@ -177,11 +177,11 @@
                         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                             <p>Alvio Pharma’s national operations are the foundation of our growth story.</p>
+                                <p>Alvio Pharma’s national operations are the foundation of our growth story.</p>
                             </div>
                         </div>
                     </div>
-                
+
                     <div class="accordion-item">
                         <h4 class="accordion-header" id="headingFive">
                             <button class="accordion-button title-34 collapsed" type="button" data-bs-toggle="collapse"
@@ -192,7 +192,7 @@
                         <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                             <p>Alvio Pharma’s national operations are the foundation of our growth story.</p>
+                                <p>Alvio Pharma’s national operations are the foundation of our growth story.</p>
                             </div>
                         </div>
                     </div>
@@ -202,11 +202,16 @@
         </div>
         <div class="col-xl-6">
             <div class="images-only">
-                <img src="images/home-images/state-map-1.webp" alt="Gujarat" class="accordion-preview-img img-fluid" data-panel="collapseOne">
-                <img src="images/home-images/state-map-1.webp" alt="Orissa" class="accordion-preview-img img-fluid" data-panel="collapseTwo">
-                <img src="images/home-images/state-map-1.webp" alt="Maharashtra" class="accordion-preview-img img-fluid" data-panel="collapseThree">
-                <img src="images/home-images/state-map-1.webp" alt="West Bengal" class="accordion-preview-img img-fluid" data-panel="collapseFour">
-                <img src="images/home-images/state-map-1.webp" alt="Tripura" class="accordion-preview-img img-fluid" data-panel="collapseFive">
+                <img src="images/home-images/state-map-1.webp" alt="Gujarat" class="accordion-preview-img img-fluid"
+                    data-panel="collapseOne">
+                <img src="images/home-images/state-map-1.webp" alt="Orissa" class="accordion-preview-img img-fluid"
+                    data-panel="collapseTwo">
+                <img src="images/home-images/state-map-1.webp" alt="Maharashtra" class="accordion-preview-img img-fluid"
+                    data-panel="collapseThree">
+                <img src="images/home-images/state-map-1.webp" alt="West Bengal" class="accordion-preview-img img-fluid"
+                    data-panel="collapseFour">
+                <img src="images/home-images/state-map-1.webp" alt="Tripura" class="accordion-preview-img img-fluid"
+                    data-panel="collapseFive">
             </div>
 
         </div>
@@ -215,59 +220,44 @@
 <section class="blog-section p-x mt-100">
     <div class="blog-header">
         <div>
-        <h2 class="title-54 title--blue mb-5">Latest Insights & <br/>Healthcare Knowledge</h2>
+            <h2 class="title-54 title--blue mb-5">Latest Insights & <br />Healthcare Knowledge</h2>
         </div>
         <div>
-             <a href="#" class="commo-btn bg-black btn-color-white">View All</a>
-                <a href="#" class="commo-btn-arrow bg-black btn-color-white"><i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#" class="commo-btn bg-black btn-color-white">View All</a>
+            <a href="#" class="commo-btn-arrow bg-black btn-color-white"><i class="fa-solid fa-arrow-right"></i></a>
         </div>
 
     </div>
-    <div class="blog-wrapper">   
-            <div class="blog-item">
+    <div class="blog-wrapper">
+        <div class="blog-item">
             <img src="images/home-images/blog-image-1.webp" alt="Blog Image 1" class="img-fluid w-100">
             <div class="blog-content pt-3">
                 <p>May 12,2025</p>
-              <a href="javascript:void(0)">  <h3 class="title-24">Understanding Chronic Therapies: Why Long-Term Treatment Matters</h3></a>
-                </div>
+                <a href="javascript:void(0)">
+                    <h3 class="title-24">Understanding Chronic Therapies: Why Long-Term Treatment Matters</h3>
+                </a>
             </div>
-            <div class="blog-item">
+        </div>
+        <div class="blog-item">
             <img src="images/home-images/blog-image-2.webp" alt="Blog Image 1" class="img-fluid w-100">
             <div class="blog-content pt-3">
                 <p>May 12,2025</p>
-              <a href="javascript:void(0)"><h3 class="title-24">How Nutraceuticals Support Daily Wellness & Immunity</h3></a>
-                </div>
+                <a href="javascript:void(0)">
+                    <h3 class="title-24">How Nutraceuticals Support Daily Wellness & Immunity</h3>
+                </a>
             </div>
-            <div class="blog-item">
+        </div>
+        <div class="blog-item">
             <img src="images/home-images/blog-image-3.webp" alt="Blog Image 1" class="img-fluid w-100">
             <div class="blog-content pt-3">
                 <p>May 12,2025</p>
-                <a href="javascript:void(0)"><h3 class="title-24">The Rise of Derma Care in India: Science Behind Healthy Skin</h3></a>
-                </div>
+                <a href="javascript:void(0)">
+                    <h3 class="title-24">The Rise of Derma Care in India: Science Behind Healthy Skin</h3>
+                </a>
             </div>
+        </div>
     </div>
 
 </section>
-<!-- <section class="common-top-footer p-x mt-100">
-   <div class="tab-wrapper">
-
-  <div class="tab-nav">
-    <ul class="tab-list">
-    <li class="tab-item active" data-tab="0">Manufacturing</li>
-    <li class="tab-item" data-tab="1">Divisions</li>
-    <li class="tab-item" data-tab="2">Innovation</li>
-    </ul>
-  </div>
-
-  <div class="tab-content">
-    <div class="content-item active">
-        <img src="images/home-images/divisions-img.png" alt="Manufacturing Unit" class="img-fluid w-100">
-    </div>
-    <div class="content-item">Divisions content</div>
-    <div class="content-item">Innovation content</div>
-  </div>
-
-</div>
-
-</section> -->
+<?php include 'top-footer.php'; ?>
 <?php include 'footer.php'; ?>
