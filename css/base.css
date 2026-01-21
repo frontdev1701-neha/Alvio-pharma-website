@@ -85,8 +85,13 @@
     z-index: 99;
 }
 .page-header-para{
-    width:70%;
+    width:80%;
     margin:0 auto;
     font-size: 16px;
+     line-height: 27px;
 }
-
+.page-header-text .title-34{
+    font-weight: 500;
+    margin-bottom: 12px;
+   
+}

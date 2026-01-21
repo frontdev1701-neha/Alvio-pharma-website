@@ -1,0 +1,27 @@
+.year-info{
+    position: relative;
+}
+.year-wraper, .year-info{
+     width: 80%;
+    margin: 0 auto;
+}
+.year-info-item{
+    display:flex;
+    gap:110px;
+}
+.year{
+    background-color: var(--black-color);
+    color: var(--white-color);
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 81px;
+    justify-content: center;
+    
+}
+.year-content{
+    width: 43%;
+    background-color: #E4F2FF;
+    padding: 40px;
+}

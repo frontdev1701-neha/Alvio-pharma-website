@@ -35,6 +35,8 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/pages/index.css">
     <link rel="stylesheet" href="css/pages/our-company.css">
+    <link rel="stylesheet" href="css/pages/board-directors.css">
+    <link rel="stylesheet" href="css/pages/heritage.css">
 
     <!-- Responsive Styles -->
     <link rel="stylesheet" href="css/responsive.css">
